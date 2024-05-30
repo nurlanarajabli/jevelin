@@ -1,0 +1,104 @@
+.secfr {
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0EDF4;
+
+
+    .contfr {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+
+
+        .tectfr {
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            flex-direction: column;
+            text-align: center;
+
+            h1 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 48px;
+                font-weight: 900;
+                font-style: normal;
+                line-height: 60px;
+                color:
+                    black;
+            }
+
+            .tttfr {
+                width: 80%;
+                height: 20rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                flex-direction: column;
+
+                .imgfr {
+                    width: 40%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+
+                    img {
+                        width: 60%;
+                        height: 4rem;
+                        border-radius: 50%;
+                    }
+
+                }
+
+                p {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 25px;
+                    color:
+                        rgb(63, 56, 73);
+                }
+
+                span {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-style: normal;
+                    line-height: 30px;
+                    color: rgb(172, 163, 186);
+                }
+            }
+
+
+        }
+
+        .icun {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #7D1EFF;
+            height: 110px;
+            flex-direction: column;
+
+            .icn {
+                width: 10%;
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
+                font-size: 20px;
+            }
+        }
+
+    }
+}
